@@ -31,7 +31,7 @@ np.random.seed(SEED)
 torch.manual_seed(SEED)
 torch.cuda.manual_seed_all(SEED)
 
-# Optional: Make sure huggingface datasets use the same seed
+# Making sure huggingface datasets use the same seed
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
 
